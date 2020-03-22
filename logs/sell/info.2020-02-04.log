@@ -1,0 +1,369 @@
+2020-02-04 11:05:49,215 - Starting SellApplication on Robin-PC with PID 6456 (D:\JavaProjects\sell\target\classes started by Robin in D:\JavaProjects\sell)
+2020-02-04 11:05:49,221 - The following profiles are active: dev
+2020-02-04 11:05:49,328 - The Class-Path manifest attribute in D:\Program Files\Java\apache-maven-3.6.1\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/D:/Program%20Files/Java/apache-maven-3.6.1/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/D:/Program%20Files/Java/apache-maven-3.6.1/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/D:/Program%20Files/Java/apache-maven-3.6.1/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/D:/Program%20Files/Java/apache-maven-3.6.1/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/D:/Program%20Files/Java/apache-maven-3.6.1/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/D:/Program%20Files/Java/apache-maven-3.6.1/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-02-04 11:05:49,329 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-02-04 11:05:49,329 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-02-04 11:05:51,011 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-02-04 11:05:51,251 - Finished Spring Data repository scanning in 220ms. Found 4 JPA repository interfaces.
+2020-02-04 11:05:52,446 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-04 11:05:53,116 - Tomcat initialized with port(s): 8080 (http)
+2020-02-04 11:05:53,136 - Initializing ProtocolHandler ["http-nio-8080"]
+2020-02-04 11:05:53,137 - Starting service [Tomcat]
+2020-02-04 11:05:53,138 - Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-04 11:05:53,148 - An older version [1.2.21] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2020-02-04 11:05:53,148 - Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2020-02-04 11:05:53,149 - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-02-04 11:05:53,149 - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-02-04 11:05:53,172 - OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2020-02-04 11:05:53,440 - Initializing Spring embedded WebApplicationContext
+2020-02-04 11:05:53,440 - Root WebApplicationContext: initialization completed in 4110 ms
+2020-02-04 11:05:53,758 - HikariPool-1 - Starting...
+2020-02-04 11:05:54,433 - HikariPool-1 - Start completed.
+2020-02-04 11:05:54,610 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-02-04 11:05:54,921 - HHH000412: Hibernate Core {5.4.10.Final}
+2020-02-04 11:05:55,402 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-02-04 11:05:55,804 - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-02-04 11:05:57,937 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-02-04 11:05:57,955 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-02-04 11:05:58,860 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-02-04 11:05:59,144 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-04 11:05:59,440 - LiveReload server is running on port 35729
+2020-02-04 11:05:59,474 - Starting ProtocolHandler ["http-nio-8080"]
+2020-02-04 11:05:59,508 - Tomcat started on port(s): 8080 (http) with context path '/sell'
+2020-02-04 11:05:59,512 - Started SellApplication in 12.968 seconds (JVM running for 18.917)
+2020-02-04 11:06:00,140 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-04 11:06:00,141 - Initializing Servlet 'dispatcherServlet'
+2020-02-04 11:06:00,174 - Completed initialization in 33 ms
+2020-02-04 11:06:19,117 - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-04 11:06:19,120 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-02-04 11:06:19,128 - HikariPool-1 - Shutdown initiated...
+2020-02-04 11:06:19,149 - HikariPool-1 - Shutdown completed.
+2020-02-04 11:06:20,131 - Starting SellApplication on Robin-PC with PID 6456 (D:\JavaProjects\sell\target\classes started by Robin in D:\JavaProjects\sell)
+2020-02-04 11:06:20,131 - The following profiles are active: dev
+2020-02-04 11:06:20,665 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-02-04 11:06:20,705 - Finished Spring Data repository scanning in 38ms. Found 4 JPA repository interfaces.
+2020-02-04 11:06:20,915 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-04 11:06:21,032 - Tomcat initialized with port(s): 8080 (http)
+2020-02-04 11:06:21,033 - Initializing ProtocolHandler ["http-nio-8080"]
+2020-02-04 11:06:21,033 - Starting service [Tomcat]
+2020-02-04 11:06:21,034 - Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-04 11:06:21,034 - An older version [1.2.21] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2020-02-04 11:06:21,035 - Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2020-02-04 11:06:21,035 - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-02-04 11:06:21,035 - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-02-04 11:06:21,035 - OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2020-02-04 11:06:21,059 - Initializing Spring embedded WebApplicationContext
+2020-02-04 11:06:21,060 - Root WebApplicationContext: initialization completed in 922 ms
+2020-02-04 11:06:21,130 - HikariPool-2 - Starting...
+2020-02-04 11:06:21,546 - HikariPool-2 - Start completed.
+2020-02-04 11:06:21,552 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-02-04 11:06:21,559 - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-02-04 11:06:21,692 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-02-04 11:06:21,692 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-02-04 11:06:21,960 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-02-04 11:06:22,068 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-04 11:06:22,213 - LiveReload server is running on port 35729
+2020-02-04 11:06:22,242 - Starting ProtocolHandler ["http-nio-8080"]
+2020-02-04 11:06:22,248 - Tomcat started on port(s): 8080 (http) with context path '/sell'
+2020-02-04 11:06:22,250 - Started SellApplication in 2.195 seconds (JVM running for 41.655)
+2020-02-04 11:06:22,253 - Condition evaluation unchanged
+2020-02-04 11:06:22,265 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-04 11:06:22,265 - Initializing Servlet 'dispatcherServlet'
+2020-02-04 11:06:22,270 - Completed initialization in 5 ms
+2020-02-04 11:07:15,342 - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-04 11:07:15,343 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-02-04 11:07:15,348 - HikariPool-2 - Shutdown initiated...
+2020-02-04 11:07:15,365 - HikariPool-2 - Shutdown completed.
+2020-02-04 11:07:17,156 - Starting SellApplication on Robin-PC with PID 6456 (D:\JavaProjects\sell\target\classes started by Robin in D:\JavaProjects\sell)
+2020-02-04 11:07:17,156 - The following profiles are active: dev
+2020-02-04 11:07:18,307 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-02-04 11:07:18,346 - Finished Spring Data repository scanning in 38ms. Found 4 JPA repository interfaces.
+2020-02-04 11:07:18,580 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-04 11:07:18,753 - Tomcat initialized with port(s): 8080 (http)
+2020-02-04 11:07:18,754 - Initializing ProtocolHandler ["http-nio-8080"]
+2020-02-04 11:07:18,754 - Starting service [Tomcat]
+2020-02-04 11:07:18,756 - Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-04 11:07:18,761 - An older version [1.2.21] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2020-02-04 11:07:18,761 - Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2020-02-04 11:07:18,761 - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-02-04 11:07:18,762 - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-02-04 11:07:18,763 - OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2020-02-04 11:07:18,808 - Initializing Spring embedded WebApplicationContext
+2020-02-04 11:07:18,808 - Root WebApplicationContext: initialization completed in 1641 ms
+2020-02-04 11:07:18,884 - HikariPool-3 - Starting...
+2020-02-04 11:07:19,229 - HikariPool-3 - Start completed.
+2020-02-04 11:07:19,233 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-02-04 11:07:19,240 - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-02-04 11:07:19,352 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-02-04 11:07:19,352 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-02-04 11:07:19,568 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-02-04 11:07:19,637 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-04 11:07:19,738 - LiveReload server is running on port 35729
+2020-02-04 11:07:19,763 - Starting ProtocolHandler ["http-nio-8080"]
+2020-02-04 11:07:19,769 - Tomcat started on port(s): 8080 (http) with context path '/sell'
+2020-02-04 11:07:19,770 - Started SellApplication in 2.73 seconds (JVM running for 99.174)
+2020-02-04 11:07:19,773 - Condition evaluation unchanged
+2020-02-04 11:07:29,396 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-04 11:07:29,398 - Initializing Servlet 'dispatcherServlet'
+2020-02-04 11:07:29,408 - Completed initialization in 9 ms
+2020-02-04 11:07:39,000 - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-04 11:07:39,001 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-02-04 11:07:39,003 - HikariPool-3 - Shutdown initiated...
+2020-02-04 11:07:39,041 - HikariPool-3 - Shutdown completed.
+2020-02-04 11:07:50,712 - Starting SellApplication on Robin-PC with PID 3032 (D:\JavaProjects\sell\target\classes started by Robin in D:\JavaProjects\sell)
+2020-02-04 11:07:50,717 - The following profiles are active: dev
+2020-02-04 11:07:50,826 - The Class-Path manifest attribute in D:\Program Files\Java\apache-maven-3.6.1\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/D:/Program%20Files/Java/apache-maven-3.6.1/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/D:/Program%20Files/Java/apache-maven-3.6.1/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/D:/Program%20Files/Java/apache-maven-3.6.1/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/D:/Program%20Files/Java/apache-maven-3.6.1/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/D:/Program%20Files/Java/apache-maven-3.6.1/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/D:/Program%20Files/Java/apache-maven-3.6.1/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-02-04 11:07:50,827 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-02-04 11:07:50,827 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-02-04 11:07:51,857 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-02-04 11:07:51,959 - Finished Spring Data repository scanning in 89ms. Found 4 JPA repository interfaces.
+2020-02-04 11:07:52,359 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-04 11:07:52,724 - Tomcat initialized with port(s): 8080 (http)
+2020-02-04 11:07:52,742 - Initializing ProtocolHandler ["http-nio-8080"]
+2020-02-04 11:07:52,742 - Starting service [Tomcat]
+2020-02-04 11:07:52,743 - Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-04 11:07:52,746 - An older version [1.2.21] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2020-02-04 11:07:52,747 - Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2020-02-04 11:07:52,747 - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-02-04 11:07:52,747 - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-02-04 11:07:52,753 - OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2020-02-04 11:07:52,870 - Initializing Spring embedded WebApplicationContext
+2020-02-04 11:07:52,870 - Root WebApplicationContext: initialization completed in 2043 ms
+2020-02-04 11:07:53,039 - HikariPool-1 - Starting...
+2020-02-04 11:07:53,614 - HikariPool-1 - Start completed.
+2020-02-04 11:07:53,782 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-02-04 11:07:54,052 - HHH000412: Hibernate Core {5.4.10.Final}
+2020-02-04 11:07:54,534 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-02-04 11:07:55,038 - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-02-04 11:07:56,947 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-02-04 11:07:56,985 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-02-04 11:07:58,298 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-02-04 11:07:58,691 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-04 11:07:59,065 - LiveReload server is running on port 35729
+2020-02-04 11:07:59,120 - Starting ProtocolHandler ["http-nio-8080"]
+2020-02-04 11:07:59,164 - Tomcat started on port(s): 8080 (http) with context path '/sell'
+2020-02-04 11:07:59,170 - Started SellApplication in 9.91 seconds (JVM running for 12.185)
+2020-02-04 11:08:03,611 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-04 11:08:03,611 - Initializing Servlet 'dispatcherServlet'
+2020-02-04 11:08:03,624 - Completed initialization in 13 ms
+2020-02-04 11:13:02,829 - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-04 11:13:02,833 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-02-04 11:13:02,845 - HikariPool-1 - Shutdown initiated...
+2020-02-04 11:13:02,872 - HikariPool-1 - Shutdown completed.
+2020-02-04 11:13:04,767 - Starting SellApplication on Robin-PC with PID 3032 (D:\JavaProjects\sell\target\classes started by Robin in D:\JavaProjects\sell)
+2020-02-04 11:13:04,768 - The following profiles are active: dev
+2020-02-04 11:13:05,379 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-02-04 11:13:05,433 - Finished Spring Data repository scanning in 53ms. Found 4 JPA repository interfaces.
+2020-02-04 11:13:05,604 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-04 11:13:05,772 - Tomcat initialized with port(s): 8080 (http)
+2020-02-04 11:13:05,773 - Initializing ProtocolHandler ["http-nio-8080"]
+2020-02-04 11:13:05,774 - Starting service [Tomcat]
+2020-02-04 11:13:05,775 - Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-04 11:13:05,776 - An older version [1.2.21] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2020-02-04 11:13:05,776 - Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2020-02-04 11:13:05,776 - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-02-04 11:13:05,777 - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-02-04 11:13:05,777 - OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2020-02-04 11:13:05,860 - Initializing Spring embedded WebApplicationContext
+2020-02-04 11:13:05,860 - Root WebApplicationContext: initialization completed in 1080 ms
+2020-02-04 11:13:05,945 - HikariPool-2 - Starting...
+2020-02-04 11:13:06,315 - HikariPool-2 - Start completed.
+2020-02-04 11:13:06,328 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-02-04 11:13:06,345 - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-02-04 11:13:06,716 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-02-04 11:13:06,717 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-02-04 11:13:07,265 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-02-04 11:13:07,429 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-04 11:13:07,819 - LiveReload server is running on port 35729
+2020-02-04 11:13:07,878 - Starting ProtocolHandler ["http-nio-8080"]
+2020-02-04 11:13:07,886 - Tomcat started on port(s): 8080 (http) with context path '/sell'
+2020-02-04 11:13:07,902 - Started SellApplication in 3.313 seconds (JVM running for 320.912)
+2020-02-04 11:13:07,908 - Condition evaluation unchanged
+2020-02-04 11:13:48,031 - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-04 11:13:48,035 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-02-04 11:13:48,037 - HikariPool-2 - Shutdown initiated...
+2020-02-04 11:13:48,063 - HikariPool-2 - Shutdown completed.
+2020-02-04 11:14:00,825 - Starting SellApplication on Robin-PC with PID 6700 (D:\JavaProjects\sell\target\classes started by Robin in D:\JavaProjects\sell)
+2020-02-04 11:14:00,831 - The following profiles are active: dev
+2020-02-04 11:14:00,918 - The Class-Path manifest attribute in D:\Program Files\Java\apache-maven-3.6.1\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/D:/Program%20Files/Java/apache-maven-3.6.1/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/D:/Program%20Files/Java/apache-maven-3.6.1/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/D:/Program%20Files/Java/apache-maven-3.6.1/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/D:/Program%20Files/Java/apache-maven-3.6.1/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/D:/Program%20Files/Java/apache-maven-3.6.1/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/D:/Program%20Files/Java/apache-maven-3.6.1/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-02-04 11:14:00,919 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-02-04 11:14:00,919 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-02-04 11:14:01,908 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-02-04 11:14:02,015 - Finished Spring Data repository scanning in 93ms. Found 4 JPA repository interfaces.
+2020-02-04 11:14:02,397 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-04 11:14:02,825 - Tomcat initialized with port(s): 8080 (http)
+2020-02-04 11:14:02,836 - Initializing ProtocolHandler ["http-nio-8080"]
+2020-02-04 11:14:02,837 - Starting service [Tomcat]
+2020-02-04 11:14:02,837 - Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-04 11:14:02,840 - An older version [1.2.21] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2020-02-04 11:14:02,840 - Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2020-02-04 11:14:02,840 - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-02-04 11:14:02,841 - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-02-04 11:14:02,845 - OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2020-02-04 11:14:02,952 - Initializing Spring embedded WebApplicationContext
+2020-02-04 11:14:02,952 - Root WebApplicationContext: initialization completed in 2033 ms
+2020-02-04 11:14:03,158 - HikariPool-1 - Starting...
+2020-02-04 11:14:03,792 - HikariPool-1 - Start completed.
+2020-02-04 11:14:03,948 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-02-04 11:14:04,221 - HHH000412: Hibernate Core {5.4.10.Final}
+2020-02-04 11:14:04,634 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-02-04 11:14:05,079 - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-02-04 11:14:07,102 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-02-04 11:14:07,124 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-02-04 11:14:08,557 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-02-04 11:14:08,899 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-04 11:14:09,448 - LiveReload server is running on port 35729
+2020-02-04 11:14:09,534 - Starting ProtocolHandler ["http-nio-8080"]
+2020-02-04 11:14:09,595 - Tomcat started on port(s): 8080 (http) with context path '/sell'
+2020-02-04 11:14:09,602 - Started SellApplication in 10.178 seconds (JVM running for 11.931)
+2020-02-04 11:14:12,982 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-04 11:14:12,983 - Initializing Servlet 'dispatcherServlet'
+2020-02-04 11:14:13,026 - Completed initialization in 43 ms
+2020-02-04 11:14:33,087 - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-04 11:14:33,090 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-02-04 11:14:33,104 - HikariPool-1 - Shutdown initiated...
+2020-02-04 11:14:33,130 - HikariPool-1 - Shutdown completed.
+2020-02-04 11:14:34,603 - Starting SellApplication on Robin-PC with PID 6700 (D:\JavaProjects\sell\target\classes started by Robin in D:\JavaProjects\sell)
+2020-02-04 11:14:34,604 - The following profiles are active: dev
+2020-02-04 11:14:35,274 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-02-04 11:14:35,330 - Finished Spring Data repository scanning in 55ms. Found 4 JPA repository interfaces.
+2020-02-04 11:14:35,501 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-04 11:14:35,668 - Tomcat initialized with port(s): 8080 (http)
+2020-02-04 11:14:35,669 - Initializing ProtocolHandler ["http-nio-8080"]
+2020-02-04 11:14:35,670 - Starting service [Tomcat]
+2020-02-04 11:14:35,670 - Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-04 11:14:35,671 - An older version [1.2.21] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2020-02-04 11:14:35,671 - Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2020-02-04 11:14:35,671 - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-02-04 11:14:35,672 - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-02-04 11:14:35,672 - OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2020-02-04 11:14:35,737 - Initializing Spring embedded WebApplicationContext
+2020-02-04 11:14:35,738 - Root WebApplicationContext: initialization completed in 1126 ms
+2020-02-04 11:14:35,867 - HikariPool-2 - Starting...
+2020-02-04 11:14:36,236 - HikariPool-2 - Start completed.
+2020-02-04 11:14:36,248 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-02-04 11:14:36,262 - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-02-04 11:14:36,534 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-02-04 11:14:36,536 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-02-04 11:14:37,259 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-02-04 11:14:37,433 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-04 11:14:37,742 - LiveReload server is running on port 35729
+2020-02-04 11:14:37,781 - Starting ProtocolHandler ["http-nio-8080"]
+2020-02-04 11:14:37,790 - Tomcat started on port(s): 8080 (http) with context path '/sell'
+2020-02-04 11:14:37,792 - Started SellApplication in 3.283 seconds (JVM running for 40.12)
+2020-02-04 11:14:37,797 - Condition evaluation unchanged
+2020-02-04 11:14:41,263 - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-04 11:14:41,273 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-02-04 11:14:41,286 - HikariPool-2 - Shutdown initiated...
+2020-02-04 11:14:41,326 - HikariPool-2 - Shutdown completed.
+2020-02-04 11:14:42,649 - Starting SellApplication on Robin-PC with PID 6700 (D:\JavaProjects\sell\target\classes started by Robin in D:\JavaProjects\sell)
+2020-02-04 11:14:42,649 - The following profiles are active: dev
+2020-02-04 11:14:43,204 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-02-04 11:14:43,255 - Finished Spring Data repository scanning in 50ms. Found 4 JPA repository interfaces.
+2020-02-04 11:14:43,417 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-04 11:14:43,591 - Tomcat initialized with port(s): 8080 (http)
+2020-02-04 11:14:43,593 - Initializing ProtocolHandler ["http-nio-8080"]
+2020-02-04 11:14:43,593 - Starting service [Tomcat]
+2020-02-04 11:14:43,594 - Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-04 11:14:43,595 - An older version [1.2.21] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2020-02-04 11:14:43,595 - Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2020-02-04 11:14:43,596 - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-02-04 11:14:43,596 - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-02-04 11:14:43,596 - OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2020-02-04 11:14:43,636 - Initializing Spring embedded WebApplicationContext
+2020-02-04 11:14:43,665 - Root WebApplicationContext: initialization completed in 1007 ms
+2020-02-04 11:14:43,835 - HikariPool-3 - Starting...
+2020-02-04 11:14:44,199 - HikariPool-3 - Start completed.
+2020-02-04 11:14:44,205 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-02-04 11:14:44,214 - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-02-04 11:14:44,368 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-02-04 11:14:44,369 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-02-04 11:14:44,569 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-02-04 11:14:44,632 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-04 11:14:44,746 - LiveReload server is running on port 35729
+2020-02-04 11:14:44,764 - Starting ProtocolHandler ["http-nio-8080"]
+2020-02-04 11:14:44,768 - Tomcat started on port(s): 8080 (http) with context path '/sell'
+2020-02-04 11:14:44,769 - Started SellApplication in 2.187 seconds (JVM running for 47.097)
+2020-02-04 11:14:44,771 - Condition evaluation unchanged
+2020-02-04 11:14:50,358 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-04 11:14:50,368 - Initializing Servlet 'dispatcherServlet'
+2020-02-04 11:14:50,386 - Completed initialization in 17 ms
+2020-02-04 11:15:13,829 - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-04 11:15:13,831 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-02-04 11:15:13,832 - HikariPool-3 - Shutdown initiated...
+2020-02-04 11:15:13,853 - HikariPool-3 - Shutdown completed.
+2020-02-04 11:15:15,047 - Starting SellApplication on Robin-PC with PID 6700 (D:\JavaProjects\sell\target\classes started by Robin in D:\JavaProjects\sell)
+2020-02-04 11:15:15,047 - The following profiles are active: dev
+2020-02-04 11:15:15,759 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-02-04 11:15:15,813 - Finished Spring Data repository scanning in 53ms. Found 4 JPA repository interfaces.
+2020-02-04 11:15:16,040 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-04 11:15:16,217 - Tomcat initialized with port(s): 8080 (http)
+2020-02-04 11:15:16,218 - Initializing ProtocolHandler ["http-nio-8080"]
+2020-02-04 11:15:16,219 - Starting service [Tomcat]
+2020-02-04 11:15:16,220 - Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-04 11:15:16,221 - An older version [1.2.21] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2020-02-04 11:15:16,221 - Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2020-02-04 11:15:16,222 - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-02-04 11:15:16,222 - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-02-04 11:15:16,223 - OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2020-02-04 11:15:16,270 - Initializing Spring embedded WebApplicationContext
+2020-02-04 11:15:16,271 - Root WebApplicationContext: initialization completed in 1216 ms
+2020-02-04 11:15:16,385 - HikariPool-4 - Starting...
+2020-02-04 11:15:16,725 - HikariPool-4 - Start completed.
+2020-02-04 11:15:16,737 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-02-04 11:15:16,750 - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-02-04 11:15:16,986 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-02-04 11:15:16,987 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-02-04 11:15:17,349 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-02-04 11:15:17,483 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-04 11:15:17,676 - LiveReload server is running on port 35729
+2020-02-04 11:15:17,714 - Starting ProtocolHandler ["http-nio-8080"]
+2020-02-04 11:15:17,724 - Tomcat started on port(s): 8080 (http) with context path '/sell'
+2020-02-04 11:15:17,725 - Started SellApplication in 2.775 seconds (JVM running for 80.053)
+2020-02-04 11:15:17,729 - Condition evaluation unchanged
+2020-02-04 11:15:19,190 - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-04 11:15:19,192 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-02-04 11:15:19,194 - HikariPool-4 - Shutdown initiated...
+2020-02-04 11:15:19,407 - HikariPool-4 - Shutdown completed.
+2020-02-04 11:15:21,290 - Starting SellApplication on Robin-PC with PID 6700 (D:\JavaProjects\sell\target\classes started by Robin in D:\JavaProjects\sell)
+2020-02-04 11:15:21,291 - The following profiles are active: dev
+2020-02-04 11:15:21,680 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-02-04 11:15:21,712 - Finished Spring Data repository scanning in 32ms. Found 4 JPA repository interfaces.
+2020-02-04 11:15:21,878 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-02-04 11:15:21,974 - Tomcat initialized with port(s): 8080 (http)
+2020-02-04 11:15:21,975 - Initializing ProtocolHandler ["http-nio-8080"]
+2020-02-04 11:15:21,975 - Starting service [Tomcat]
+2020-02-04 11:15:21,975 - Starting Servlet engine: [Apache Tomcat/9.0.30]
+2020-02-04 11:15:21,976 - An older version [1.2.21] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2020-02-04 11:15:21,976 - Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2020-02-04 11:15:21,976 - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-02-04 11:15:21,976 - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-02-04 11:15:21,977 - OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2020-02-04 11:15:21,992 - Initializing Spring embedded WebApplicationContext
+2020-02-04 11:15:21,992 - Root WebApplicationContext: initialization completed in 697 ms
+2020-02-04 11:15:22,050 - HikariPool-5 - Starting...
+2020-02-04 11:15:22,411 - HikariPool-5 - Start completed.
+2020-02-04 11:15:22,428 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-02-04 11:15:22,449 - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2020-02-04 11:15:22,783 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-02-04 11:15:22,783 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-02-04 11:15:23,363 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-02-04 11:15:23,559 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-04 11:15:23,848 - LiveReload server is running on port 35729
+2020-02-04 11:15:23,877 - Starting ProtocolHandler ["http-nio-8080"]
+2020-02-04 11:15:23,892 - Tomcat started on port(s): 8080 (http) with context path '/sell'
+2020-02-04 11:15:23,894 - Started SellApplication in 2.658 seconds (JVM running for 86.222)
+2020-02-04 11:15:23,919 - Condition evaluation unchanged
+2020-02-04 11:33:13,940 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-02-04 11:33:13,970 - Initializing Servlet 'dispatcherServlet'
+2020-02-04 11:33:13,978 - Completed initialization in 7 ms
+2020-02-04 11:33:19,055 - HikariPool-5 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@14911ff (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2020-02-04 11:33:23,948 - HikariPool-5 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@780d166c (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2020-02-04 11:33:24,062 - HikariPool-5 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@2ddca8b (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2020-02-04 11:33:28,952 - HikariPool-5 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@76caf71d (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2020-02-04 11:33:29,065 - HikariPool-5 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@64b5dd14 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2020-02-04 11:33:33,959 - HikariPool-5 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@72f57d1c (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2020-02-04 11:33:34,071 - HikariPool-5 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@2d3afe94 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2020-02-04 11:33:38,966 - HikariPool-5 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@37f7fd26 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2020-02-04 11:33:39,075 - HikariPool-5 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@1fa30100 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2020-02-04 11:33:43,977 - HikariPool-5 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@27d933c2 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.

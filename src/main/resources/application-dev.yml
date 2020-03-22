@@ -1,0 +1,24 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /sell
+spring:
+  datasource:
+    username: root
+    password: 1qaz@123
+    url: jdbc:mysql://123.56.219.173:3306/mydb?useUnicode=true&characterEncoding=utf-8&useSSL=false
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    show-sql: true
+  devtools:  #热部署配置
+    restart:
+      enabled: true  #设置开启热部署
+      additional-paths: src/main/java #重启目录
+      exclude: WEB-INF/**
+    freemarker:
+      cache: false
+#  jackson:
+#    default-property-inclusion: non_null
+wechat:
+  mpAppId: wx43dab0d30d7e3507
+  mpAppSecret: 6a3398d90e03261e6317188a9eb4de38
